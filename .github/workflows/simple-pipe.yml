@@ -1,4 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
+G# This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
@@ -55,7 +55,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: report-count
-        uses: <your github userid>/arg-count-action@main
+        uses: BeeGrinder/arg-count-action@main
         with:
           arguments-to-count: ${{ github.event.inputs.myValues }}
       - run: echo
